@@ -1,7 +1,3 @@
-include("gaussquad_tri_table.jl")
-include("gaussquad_tet_table.jl")
-include("generate_quadrature.jl")
-
 import Base.Cartesian: @nloops, @nref, @ntuple, @nexprs
 
 """
